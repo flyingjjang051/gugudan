@@ -8,9 +8,13 @@ a { color: inherit; text-decoration: none; }
 
 #header h1 strong { font-weight: 700; }
 
-.gugudanBox { width: 800px; margin: 100px auto; }
+.inputBox { max-width: 640px; width: 100%; box-sizing: border-box; margin: 100px auto 0; padding: 0 20px; display: flex; flex-direction: column; }
 
-.gugudanBox table { width: 100%; }
+.inputBox .input { border: none; height: 50px; outline: none; border-radius: 5px; padding: 0 15px; font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 20px; }
+
+.inputBox button { margin-bottom: 20px; border: none; outline: none; font-family: inherit; height: 50px; border-radius: 100px; background-color: #111; color: #fff; font-size: 18px; }
+
+.gugudanBox { margin: 20px auto; display: flex; justify-content: center; }
 
 .gugudanBox table tr:nth-child(2n + 1) td { background-color: #eee; color: #111; }
 
